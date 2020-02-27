@@ -1,2 +1,2 @@
-# blender-dracula
-Blender dracula theme
+# Blender dracula theme
+
