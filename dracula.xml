@@ -162,7 +162,7 @@
         <wcol_box>
           <ThemeWidgetColors
             outline="#282a36"
-            inner="#282a3633"
+            inner="#44475a28"
             inner_sel="#44475aff"
             item="#282a36ff"
             text="#f8f8f2"
@@ -416,7 +416,7 @@
             title="#f8f8f2"
             text="#f8f8f2"
             text_hi="#f8f8f2"
-            header="#282a3600"
+            header="#44475a00"
             header_text="#f8f8f2"
             header_text_hi="#f8f8f2"
             button="#282a3600"
@@ -845,9 +845,9 @@
             >
             <panelcolors>
               <ThemePanelColors
-                header="#282a3600"
+                header="#44475a00"
                 back="#44475a28"
-                sub_back="#282a3624"
+                sub_back="#44475a28"
                 >
               </ThemePanelColors>
             </panelcolors>
@@ -857,25 +857,26 @@
     </properties>
     <text_editor>
       <ThemeTextEditor
-        line_numbers_background="#282a36"
-        selected_text="#6272a4"
+        line_numbers="#f8f8f2"
+        line_numbers_background="#44475a"
+        selected_text="#44475a"
         cursor="#ff5555"
-        syntax_builtin="#ff5555"
-        syntax_symbols="#ffb86c"
-        syntax_special="#f1fa8c"
-        syntax_preprocessor="#bd93f9"
+        syntax_builtin="#ff79c6"
+        syntax_symbols="#ff79c6"
+        syntax_special="#ff79c6"
+        syntax_preprocessor="#50fa7b"
         syntax_reserved="#6272a4"
-        syntax_comment="#44475a"
-        syntax_string="#ffb86c"
-        syntax_numbers="#6272a4"
+        syntax_comment="#6272a4"
+        syntax_string="#f1fa8c"
+        syntax_numbers="#50fa7b"
         >
         <space>
           <ThemeSpaceGeneric
-            back="#282a362"
+            back="#282a36"
             title="#f8f8f2"
             text="#f8f8f2"
             text_hi="#f8f8f2"
-            header="#282a3600"
+            header="#44475a00"
             header_text="#f8f8f2"
             header_text_hi="#f8f8f2"
             button="#282a36ff"
@@ -1100,7 +1101,7 @@
         >
         <space>
           <ThemeSpaceGeneric
-            back="#282a362"
+            back="#282a36"
             title="#f8f8f2"
             text="#f8f8f2"
             text_hi="#f8f8f2"
