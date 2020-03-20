@@ -133,7 +133,7 @@
           <ThemeWidgetColors
             outline="#282a36"
             inner="#44475aff"
-            inner_sel="#44475aff"
+            inner_sel="#44475aa0"
             item="#282a36ff"
             text="#f8f8f2"
             text_sel="#f8f8f2"
@@ -344,7 +344,7 @@
     </user_interface>
     <view_3d>
       <ThemeView3D
-        grid="#f8f8f2"
+        grid="#f8f8f223"
         clipping_border_3d="#282a36ff"
         wire="#f8f8f2"
         wire_edit="#f8f8f2"
