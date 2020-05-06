@@ -8,6 +8,7 @@
         icon_saturation="0.5"
         widget_emboss="#282a3605"
         editor_outline="#282a36"
+        widget_text_cursor="#3399e6"
         axis_x="#ff5555"
         axis_y="#50fa7b"
         axis_z="#6272a4"
@@ -16,19 +17,20 @@
         gizmo_secondary="#8be9fd"
         gizmo_a="#50fa7b"
         gizmo_b="#ff5555"
-        icon_scene="#f8f8f2"
-        icon_collection="#f8f8f2"
-        icon_object="#ffb86c"
-        icon_object_data="#50fa7b"
-        icon_modifier="#8be9fd"
-        icon_shading="#ff79c6"
+        icon_scene="#f8f8f2ff"
+        icon_collection="#f8f8f2ff"
+        icon_object="#ffb86cff"
+        icon_object_data="#50fa7bff"
+        icon_modifier="#8be9fdff"
+        icon_shading="#ff79c6ff"
+        icon_folder="#e3c16eff"
         icon_border_intensity="0"
         >
         <wcol_regular>
           <ThemeWidgetColors
             outline="#282a36"
             inner="#44475aff"
-            inner_sel="#44475ae6"
+            inner_sel="#6272a4e6"
             item="#282a36ff"
             text="#f8f8f2"
             text_sel="#f8f8f2"
@@ -376,6 +378,8 @@
         face_dot="#ffb86c"
         facedot_size="3"
         freestyle_face_mark="#50fa7b4d"
+        face_back="#ff0000b3"
+        face_front="#0000ffb3"
         nurb_uline="#f1fa8c"
         nurb_vline="#bd93f9"
         nurb_sel_uline="#ffb86c"
@@ -396,6 +400,7 @@
         extra_face_area="#8be9fd"
         editmesh_active="#ffb86cff"
         normal="#8be9fd"
+        vertex_normal="#2361dd"
         split_normal="#bd93f9"
         bone_pose="#8be9fd"
         bone_pose_active="#6272a4"
@@ -441,8 +446,8 @@
             <panelcolors>
               <ThemePanelColors
                 header="#282a36e6"
-                back="#282a36f0"
-                sub_back="#282a363e"
+                back="#363848f0"
+                sub_back="#44475a3e"
                 >
               </ThemePanelColors>
             </panelcolors>
@@ -563,6 +568,8 @@
       <ThemeNLAEditor
         grid="#282a36"
         view_sliders="#44475a"
+        dopesheet_channel="#5a85b2"
+        nla_track="#424242"
         active_action="#6272a466"
         active_action_unset="#44475a4d"
         preview_range="#6272a466"
@@ -707,6 +714,8 @@
         face_dot="#ffb86c"
         facedot_size="3"
         freestyle_face_mark="#50fa7b33"
+        face_back="#00000000"
+        face_front="#00000000"
         editmesh_active="#f8f8f280"
         wire_edit="#f8f8f2"
         edge_select="#ffb86c"
@@ -738,7 +747,7 @@
         >
         <space>
           <ThemeSpaceGeneric
-            back="#282a36"
+            back="#44475a"
             title="#f8f8f2"
             text="#f8f8f2"
             text_hi="#f8f8f2"
@@ -759,8 +768,8 @@
             <panelcolors>
               <ThemePanelColors
                 header="#282a36e6"
-                back="#282a36f0"
-                sub_back="#282a363e"
+                back="#363848f0"
+                sub_back="#44475a3e"
                 >
               </ThemePanelColors>
             </panelcolors>
@@ -785,17 +794,18 @@
         time_scrub_background="#282a36e6"
         keyframe="#ffb86c"
         draw_action="#ff5555"
-        preview_back="#282a36"
+        preview_back="#1c1d26"
         metadatabg="#282a36"
         metadatatext="#f8f8f2"
+        preview_range="#a14d0066"
         >
         <space>
           <ThemeSpaceGeneric
-            back="#282a36"
+            back="#44475a"
             title="#f8f8f2"
             text="#f8f8f2"
             text_hi="#f8f8f2"
-            header="#282a36ff"
+            header="#44475aff"
             header_text="#f8f8f2"
             header_text_hi="#f8f8f2"
             button="#282a36ff"
@@ -812,8 +822,8 @@
             <panelcolors>
               <ThemePanelColors
                 header="#282a36cc"
-                back="#282a36b3"
-                sub_back="#282a363e"
+                back="#363848b3"
+                sub_back="#44475a3e"
                 >
               </ThemePanelColors>
             </panelcolors>
@@ -825,7 +835,7 @@
       <ThemeProperties>
         <space>
           <ThemeSpaceGeneric
-            back="#282a36"
+            back="#44475a"
             title="#f8f8f2"
             text="#f8f8f2"
             text_hi="#f8f8f2"
@@ -846,7 +856,7 @@
             <panelcolors>
               <ThemePanelColors
                 header="#44475a00"
-                back="#44475a28"
+                back="#282a3680"
                 sub_back="#44475a28"
                 >
               </ThemePanelColors>
@@ -911,7 +921,7 @@
         wire_select="#f8f8f2"
         selected_text="#6272a4"
         node_backdrop="#44475aff"
-        converter_node="#8be9fdff"
+        converter_node="#8be9fd"
         color_node="#ffb86c"
         group_node="#f1fa8cb9"
         group_socket_node="#282a36"
@@ -931,7 +941,7 @@
         >
         <space>
           <ThemeSpaceGeneric
-            back="#282a36"
+            back="#44475a"
             title="#f8f8f2"
             text="#f8f8f2"
             text_hi="#f8f8f2"
@@ -952,8 +962,8 @@
             <panelcolors>
               <ThemePanelColors
                 header="#282a36cc"
-                back="#282a36b3"
-                sub_back="#282a363e"
+                back="#363848b3"
+                sub_back="#44475a3e"
                 >
               </ThemePanelColors>
             </panelcolors>
@@ -973,15 +983,16 @@
     <outliner>
       <ThemeOutliner
         match="#8be9fd"
-        selected_highlight="#6272a4"
+        selected_highlight="#3b5689"
+        active="#6272a4"
         selected_object="#f8f8f2"
         active_object="#f8f8f2"
-        edited_object="#f1fa8c"
-        row_alternate="#f8f8f207"
+        edited_object="#f1fa8c66"
+        row_alternate="#282a363e"
         >
         <space>
           <ThemeSpaceGeneric
-            back="#282a36"
+            back="#44475a"
             title="#f8f8f2"
             text="#f8f8f2"
             text_hi="#f8f8f2"
@@ -1081,7 +1092,7 @@
             <panelcolors>
               <ThemePanelColors
                 header="#282a3600"
-                back="#44475a"
+                back="#44475ab3"
                 sub_back="#282a363e"
                 >
               </ThemePanelColors>
@@ -1141,6 +1152,8 @@
         locked_marker="#6272a4"
         path_before="#ff5555"
         path_after="#6272a4"
+        path_keyframe_before="#ffc4c4"
+        path_keyframe_after="#c4c4ff"
         frame_current="#6272a4"
         time_scrub_background="#282a36e6"
         strips="#282a36"
